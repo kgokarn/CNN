@@ -1,0 +1,186 @@
+kartik@kartik:~/PycharmProjects/CNN/test3$ make
+make results.xml
+make[1]: Entering directory '/home/kartik/PycharmProjects/CNN/test3'
+/usr/local/bin/iverilog -o sim_build/sim.vvp -D COCOTB_SIM=1 -s top -f sim_build/cmds.f -g2012   /home/kartik/PycharmProjects/CNN/test3/qnb.v 
+MODULE=test_coco TESTCASE= TOPLEVEL=top TOPLEVEL_LANG= \
+        /usr/local/bin/vvp -M /home/kartik/.local/lib/python3.6/site-packages/cocotb/libs -m libcocotbvpi_icarus   sim_build/sim.vvp 
+     -.--ns INFO     cocotb.gpi                         ..mbed/gpi_embed.cpp:74   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+     -.--ns INFO     cocotb.gpi                         ../gpi/GpiCommon.cpp:105  in gpi_print_registered_impl       VPI registered
+     -.--ns INFO     cocotb.gpi                         ..mbed/gpi_embed.cpp:244  in embed_sim_init                  Python interpreter initialized and cocotb loaded!
+     0.00ns INFO     cocotb                                      __init__.py:202  in _initialise_testbench           Running on Icarus Verilog version 11.0 (stable)
+     0.00ns INFO     cocotb                                      __init__.py:209  in _initialise_testbench           Running tests with cocotb v1.4.0 from /home/kartik/.local/lib/python3.6/site-packages/cocotb
+     0.00ns INFO     cocotb                                      __init__.py:229  in _initialise_testbench           Seeding Python random module with 1615374574
+/usr/local/lib/python3.6/dist-packages/matplotlib/backends/backend_gtk3.py:40: DeprecationWarning: Gdk.Cursor.new is deprecated
+  cursors.MOVE:          Gdk.Cursor.new(Gdk.CursorType.FLEUR),
+     0.00ns INFO     cocotb.regression                         regression.py:127  in __init__                        Found test test_coco.test_cnn_hw
+     0.00ns INFO     cocotb.regression                         regression.py:463  in _start_test                     Running test 1/1: test_cnn_hw
+     0.00ns INFO     ..b.test.test_cnn_hw.0x7f9e608990b8       decorators.py:256  in _advance                        Starting test: "test_cnn_hw"
+                                                                                                                     Description: None
+/home/kartik/.local/lib/python3.6/site-packages/rig/type_casts.py:251: DeprecationWarning: fix_to_float() is deprecated, see fp_to_float
+  DeprecationWarning)
+saving data
+Test 1 of 10000. Accuracy: 0.000
+Test 2 of 10000. Accuracy: 0.000
+Test 3 of 10000. Accuracy: 0.000
+Test 4 of 10000. Accuracy: 0.000
+Test 5 of 10000. Accuracy: 0.200
+Test 6 of 10000. Accuracy: 0.167
+Test 7 of 10000. Accuracy: 0.143
+Test 8 of 10000. Accuracy: 0.125
+Test 9 of 10000. Accuracy: 0.111
+Test 10 of 10000. Accuracy: 0.100
+Test 11 of 10000. Accuracy: 0.091
+Test 12 of 10000. Accuracy: 0.167
+Test 13 of 10000. Accuracy: 0.154
+Test 14 of 10000. Accuracy: 0.143
+Test 15 of 10000. Accuracy: 0.133
+Test 16 of 10000. Accuracy: 0.125
+Test 17 of 10000. Accuracy: 0.118
+Test 18 of 10000. Accuracy: 0.111
+Test 19 of 10000. Accuracy: 0.158
+Test 20 of 10000. Accuracy: 0.150
+Test 21 of 10000. Accuracy: 0.143
+Test 22 of 10000. Accuracy: 0.182
+Test 23 of 10000. Accuracy: 0.174
+Test 24 of 10000. Accuracy: 0.167
+Test 25 of 10000. Accuracy: 0.160
+Test 26 of 10000. Accuracy: 0.192
+Test 27 of 10000. Accuracy: 0.185
+Test 28 of 10000. Accuracy: 0.179
+Test 29 of 10000. Accuracy: 0.172
+Test 30 of 10000. Accuracy: 0.167
+Test 31 of 10000. Accuracy: 0.194
+Test 32 of 10000. Accuracy: 0.188
+Test 33 of 10000. Accuracy: 0.182
+Test 34 of 10000. Accuracy: 0.176
+Test 35 of 10000. Accuracy: 0.171
+Test 36 of 10000. Accuracy: 0.194
+Test 37 of 10000. Accuracy: 0.189
+Test 38 of 10000. Accuracy: 0.211
+Test 39 of 10000. Accuracy: 0.205
+Test 40 of 10000. Accuracy: 0.200
+Test 41 of 10000. Accuracy: 0.195
+Test 42 of 10000. Accuracy: 0.190
+Test 43 of 10000. Accuracy: 0.186
+Test 44 of 10000. Accuracy: 0.182
+Test 45 of 10000. Accuracy: 0.178
+Test 46 of 10000. Accuracy: 0.174
+Test 47 of 10000. Accuracy: 0.170
+Test 48 of 10000. Accuracy: 0.167
+Test 49 of 10000. Accuracy: 0.163
+Test 50 of 10000. Accuracy: 0.160
+Test 51 of 10000. Accuracy: 0.157
+Test 52 of 10000. Accuracy: 0.154
+Test 53 of 10000. Accuracy: 0.170
+Test 54 of 10000. Accuracy: 0.167
+Test 55 of 10000. Accuracy: 0.164
+Test 56 of 10000. Accuracy: 0.161
+Test 57 of 10000. Accuracy: 0.158
+Test 58 of 10000. Accuracy: 0.155
+Test 59 of 10000. Accuracy: 0.153
+Test 60 of 10000. Accuracy: 0.167
+Test 61 of 10000. Accuracy: 0.164
+Test 62 of 10000. Accuracy: 0.161
+Test 63 of 10000. Accuracy: 0.159
+Test 64 of 10000. Accuracy: 0.172
+Test 65 of 10000. Accuracy: 0.169
+Test 66 of 10000. Accuracy: 0.182
+Test 67 of 10000. Accuracy: 0.179
+Test 68 of 10000. Accuracy: 0.176
+Test 69 of 10000. Accuracy: 0.174
+Test 70 of 10000. Accuracy: 0.186
+Test 71 of 10000. Accuracy: 0.183
+Test 72 of 10000. Accuracy: 0.194
+Test 73 of 10000. Accuracy: 0.192
+Test 74 of 10000. Accuracy: 0.189
+Test 75 of 10000. Accuracy: 0.187
+Test 76 of 10000. Accuracy: 0.184
+Test 77 of 10000. Accuracy: 0.182
+Test 78 of 10000. Accuracy: 0.179
+Test 79 of 10000. Accuracy: 0.190
+Test 80 of 10000. Accuracy: 0.188
+Test 81 of 10000. Accuracy: 0.185
+Test 82 of 10000. Accuracy: 0.195
+Test 83 of 10000. Accuracy: 0.205
+Test 84 of 10000. Accuracy: 0.202
+Test 85 of 10000. Accuracy: 0.212
+Test 86 of 10000. Accuracy: 0.209
+Test 87 of 10000. Accuracy: 0.207
+Test 88 of 10000. Accuracy: 0.205
+Test 89 of 10000. Accuracy: 0.202
+Test 90 of 10000. Accuracy: 0.200
+Test 91 of 10000. Accuracy: 0.209
+Test 92 of 10000. Accuracy: 0.207
+Test 93 of 10000. Accuracy: 0.204
+Test 94 of 10000. Accuracy: 0.202
+Test 95 of 10000. Accuracy: 0.200
+Test 96 of 10000. Accuracy: 0.198
+Test 97 of 10000. Accuracy: 0.206
+Test 98 of 10000. Accuracy: 0.204
+Test 99 of 10000. Accuracy: 0.202
+Test 100 of 10000. Accuracy: 0.200
+Test 101 of 10000. Accuracy: 0.198
+Test 102 of 10000. Accuracy: 0.196
+Test 103 of 10000. Accuracy: 0.194
+Test 104 of 10000. Accuracy: 0.192
+Test 105 of 10000. Accuracy: 0.190
+Test 106 of 10000. Accuracy: 0.198
+Test 107 of 10000. Accuracy: 0.206
+Test 108 of 10000. Accuracy: 0.204
+Test 109 of 10000. Accuracy: 0.202
+Test 110 of 10000. Accuracy: 0.200
+Test 111 of 10000. Accuracy: 0.198
+Test 112 of 10000. Accuracy: 0.205
+Test 113 of 10000. Accuracy: 0.204
+Test 114 of 10000. Accuracy: 0.202
+Test 115 of 10000. Accuracy: 0.209
+Test 116 of 10000. Accuracy: 0.207
+Test 117 of 10000. Accuracy: 0.214
+Test 118 of 10000. Accuracy: 0.212
+Test 119 of 10000. Accuracy: 0.210
+Test 120 of 10000. Accuracy: 0.208
+Test 121 of 10000. Accuracy: 0.207
+Test 122 of 10000. Accuracy: 0.205
+Test 123 of 10000. Accuracy: 0.203
+Test 124 of 10000. Accuracy: 0.202
+Test 125 of 10000. Accuracy: 0.200
+Test 126 of 10000. Accuracy: 0.198
+Test 127 of 10000. Accuracy: 0.197
+Test 128 of 10000. Accuracy: 0.195
+Test 129 of 10000. Accuracy: 0.194
+Test 130 of 10000. Accuracy: 0.192
+Test 131 of 10000. Accuracy: 0.191
+Test 132 of 10000. Accuracy: 0.189
+Test 133 of 10000. Accuracy: 0.188
+Test 134 of 10000. Accuracy: 0.187
+Test 135 of 10000. Accuracy: 0.185
+Test 136 of 10000. Accuracy: 0.184
+Test 137 of 10000. Accuracy: 0.182
+Test 138 of 10000. Accuracy: 0.181
+Test 139 of 10000. Accuracy: 0.180
+Test 140 of 10000. Accuracy: 0.186
+Test 141 of 10000. Accuracy: 0.184
+Test 142 of 10000. Accuracy: 0.183
+Test 143 of 10000. Accuracy: 0.189
+Test 144 of 10000. Accuracy: 0.188
+Test 145 of 10000. Accuracy: 0.186
+Test 146 of 10000. Accuracy: 0.185
+Test 147 of 10000. Accuracy: 0.184
+Test 148 of 10000. Accuracy: 0.182
+Test 149 of 10000. Accuracy: 0.181
+Test 150 of 10000. Accuracy: 0.180
+Test 151 of 10000. Accuracy: 0.179
+Test 152 of 10000. Accuracy: 0.178
+Test 153 of 10000. Accuracy: 0.176
+Test 154 of 10000. Accuracy: 0.175
+Test 155 of 10000. Accuracy: 0.181
+Test 156 of 10000. Accuracy: 0.179
+Test 157 of 10000. Accuracy: 0.178
+Test 158 of 10000. Accuracy: 0.177
+Test 159 of 10000. Accuracy: 0.176
+Test 160 of 10000. Accuracy: 0.175
+Test 161 of 10000. Accuracy: 0.174
+Test 162 of 10000. Accuracy: 0.173
+Test 163 of 10000. Accuracy: 0.172
+Test 164 of 10000. Accuracy: 0.171
+
